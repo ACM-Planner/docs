@@ -17,14 +17,40 @@
 
 ## Teams
 
+![alt tag](./diagrama.png)
 
-| Team Name | Lider | Mentor | 
+
+| Team Name | Lider | Mentor |
 | ---------- |---------- |---------- |
 | Main-API | Adrián Soto  | Matias Junemann |
 | Buscacursos (Frontend 1) | Geraldine Monsalve | Por definir |
 | Planner (Frontend 2) | Jaime Castro | Oscar Estay |
-|JS SDK + Buscacursos (Connector 1)| Patricio Lopez | Por definir |
-| Captura Datos (Curriculums) | Por definir | Por definir |
-|Curriculums + Planner + Main API (Connector 2)|Francisco Maturana|Felipe Pezoa|
-|Deploy| Por definir | Por definir |
-|Queries| Rodrigo Gomez | Fernando Florenzano |
+| JS SDK + Buscacursos (Connector 1)| Patricio Lopez | Por definir |
+| Queries| Rodrigo Gomez | Fernando Florenzano |
+| Captura Datos (Curriculums) | Juan Reutter | Por definir |
+| Curriculums + Planner + Main API (Connector 2)|Por definir|Felipe Pezoa|
+| Deploy| Por definir | Por definir |
+
+
+## Descripción de las componentes
+
+| Componente | Descripción |
+| ------------ | -------------------------------------------------- |
+| Jena + Fuseki | Almacenamiento de la información extraida del Buscacursos en formato RDF |
+| Main-API (Flask) | Componente para servir a la API. Se conecta con Jena para consultar la base de datos |
+| JS SDK | Funciones de Angular y router de React.js para poder ser consultado por el forntend |
+| Curriculums | Almacenamientos de las mallas curriculares|
+| Planner | Frontend para la planificación de una malla en particular. Se programará en React.js |
+| Buscacursos | Frontend para la planificación de un horario de un semestre en particular. Se programará en React.js |
+
+## Descripción de los Teams
+| Team Name | Descripción |
+| ------------ | --------------------------------------------------------------------- |
+| Main API | Encargado de la componente Flask y JS SDK para la correcta forma de consultar la base de datos desde el frontend |
+| Buscacursos (Frontend 1) | Se encargarán de realizar el forntend de la parte que reemplazará al Buscacursos, es decir, planificador de horario para un semestre en particular     
+| Planner (Frontend 2) | Se encargarán de realizar el forntend de la parte que reemplazará al Planner, es decir, planificador de todos los ramos a tomar en la carrera por semestre |
+| JS SDK + Buscacursos (Connector 1) | Se encargará de conectar la componente Buscacursos con la JS SDK |
+| Captura de datos (Curriculums) | Se encargarán de ver como se almacenará las mallas y de capturar los datos necesarios |
+| Curriculums + Planner + Main API (Connector 2)| Encargados de la correcta unión, funcionamiento y comunicación entre la Main-API, Planner y Curriculumns |
+| Deploy | Se encagarán de realizar el deploy de todas las componentes |
+| Queries | Se encargarán de hacer las consultas necesarias de manera que sean lo menos costosa posibles (SPARQL |
