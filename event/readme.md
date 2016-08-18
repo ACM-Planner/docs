@@ -53,4 +53,4 @@
 | Captura de datos (Curriculums) | Se encargarán de ver como se almacenará las mallas y de capturar los datos necesarios |
 | Curriculums + Planner + Main API (Connector 2)| Encargados de la correcta unión, funcionamiento y comunicación entre la Main-API, Planner y Curriculumns |
 | Deploy | Se encagarán de realizar el deploy de todas las componentes |
-| Queries | Se encargarán de hacer las consultas necesarias de manera que sean lo menos costosa posibles (SPARQL |
+| Queries | Se encargarán de hacer las consultas necesarias de manera que sean lo menos costosa posibles (SPARQL) |
