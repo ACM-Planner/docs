@@ -1,6 +1,6 @@
-# Información evento
+# Hackathon Planner 2.0
 
-## Planificación
+## Planificación e Información del Evento
 
 | Horario        | Actividad            | Lugar         | Descripción |
 | ------------------------- |------------------- | ------------ |---------------------------|
