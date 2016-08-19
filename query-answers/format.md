@@ -2,33 +2,32 @@
 
 ## JSON horario
 
-Un arreglo con pares módulo día 
+Un arreglo con pares módulo día y tipo
 ```
 [
-{“modulo”: <integer>, “dia”: <integer>},
+{“module”: <integer>, “day”: <char>, “type”: <string>},
 etc…
 ]
 ```
-## JSON curso 
-También se pueden agregar la info del curso y el link al programa, si los tenis en le BD 
+## JSON curso, que tiene la sigla, nombre, facultad, requisitos (En formato DNF, es decir, que los requisitos es que sea necesario cumplir alguno de los set) y equivalencias.
 ```
 {
-“sigla”: <string>,
-“nombre”: <string>,
-“facultad”: <string>,
-“requisitos”: [[<sigla1>,<sigla2>,…], [<sigla3>,<sigla4>,…],...],
-“equivalencias”: [<sigla1>,<sigla2>,…]
+“initial”: <string>,
+“name”: <string>,
+“faculty”: <string>,
+“requisites”: [[<sigla1>,<sigla2>,…], [<sigla3>,<sigla4>,…],...],
+“equivalences”: [<sigla1>,<sigla2>,…]
 }
 ```
-## JSON sección 
+## JSON sección, con número de seccion, NRC, profesores, horarios que se dicta, junto con el semestre y año que se dicta
 ```
 {
-“numero”:<integer>,
+“number”:<integer>,
 “NRC”: <integer>, 
-“profesor”: [<string1>, <string2>,...],
-“horarios”:[
-	{“tipo”, “<string>, “horario”: <horario>},
-	{“tipo”, “<string>, “horario”: <horario>}
+“teachers”: [<string1>, <string2>,...],
+“schedules”:[
+	{“module”: <module>},
+	{“module”: <module>}
 ],
 “semestre”: <string>,
 “año”: <integer>
@@ -38,8 +37,8 @@ También se pueden agregar la info del curso y el link al programa, si los tenis
 Esto es un json mixto que tiene la info del curso y de ahí un arreglo de secciones
 ```
 {
-“curso”: <curso>, 
-“secciones”: [<seccion1>,<seccion2>,…]
+“course”: <course>, 
+“sections”: [<section1>,<section2>,…]
 }
 ```
 ## JSON informacion_curso[] (arreglo de varios cursos con varias secciones):
