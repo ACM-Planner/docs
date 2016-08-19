@@ -28,8 +28,7 @@
 | JS SDK + Buscacursos (Connector 1)| Patricio Lopez | Por definir |
 | Queries| Rodrigo Gomez | Por Confirmar |
 | Captura Datos (Curriculums) | Juan Reutter | Por definir |
-| Curriculums + Planner + Main API (Connector 2)|Por definir|Felipe Pezoa|
-| Deploy| Por definir | Por definir |
+| Deploy| Jurgen Dieter | Por definir |
 
 
 ## Descripción de las componentes
@@ -51,6 +50,5 @@
 | Planner (Frontend 2) | Se encargarán de realizar el forntend de la parte que reemplazará al Planner, es decir, planificador de todos los ramos a tomar en la carrera por semestre |
 | JS SDK + Buscacursos (Connector 1) | Se encargará de conectar la componente Buscacursos con la JS SDK |
 | Captura de datos (Curriculums) | Se encargarán de ver como se almacenará las mallas y de capturar los datos necesarios |
-| Curriculums + Planner + Main API (Connector 2)| Encargados de la correcta unión, funcionamiento y comunicación entre la Main-API, Planner y Curriculumns |
 | Deploy | Se encagarán de realizar el deploy de todas las componentes |
 | Queries | Se encargarán de hacer las consultas necesarias de manera que sean lo menos costosa posibles (SPARQL) |
