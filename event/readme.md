@@ -26,7 +26,7 @@
 | Buscacursos (Frontend 1) | Geraldine Monsalve | Por definir |
 | Planner (Frontend 2) | Jaime Castro | Oscar Estay |
 | JS SDK + Buscacursos (Connector 1)| Patricio Lopez | Por definir |
-| Queries| Rodrigo Gomez | Fernando Florenzano |
+| Queries| Rodrigo Gomez | Por Confirmar |
 | Captura Datos (Curriculums) | Juan Reutter | Por definir |
 | Curriculums + Planner + Main API (Connector 2)|Por definir|Felipe Pezoa|
 | Deploy| Por definir | Por definir |
