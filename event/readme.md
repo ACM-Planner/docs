@@ -37,7 +37,7 @@
 | ------------ | -------------------------------------------------- |
 | Jena + Fuseki | Almacenamiento de la información extraida del Buscacursos en formato RDF |
 | Main-API (Flask) | Componente para servir a la API. Se conecta con Jena para consultar la base de datos |
-| JS SDK | Funciones de Angular y router de React.js para poder ser consultado por el forntend |
+| JS SDK | Funciones para poder consultar la Main API y abstraernos de los métodos HTTP. |
 | Curriculums | Almacenamientos de las mallas curriculares|
 | Planner | Frontend para la planificación de una malla en particular. Se programará en React.js |
 | Buscacursos | Frontend para la planificación de un horario de un semestre en particular. Se programará en React.js |
